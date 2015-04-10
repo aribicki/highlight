@@ -11,9 +11,9 @@
 /*global */
 
 // ------------ BEGIN MODULE SCOPE VARIABLES --------------
-'use strict';
+'use strict'; // checks for more syntax errors
 var
-  http    = require( 'http'                 ),
+  http    = require( 'http'                 ), 
   express = require( 'express'              ),
   bodyParser = require('body-parser'        ),
   methodOverride = require('method-override'),
@@ -31,7 +31,7 @@ var
 // -------------- END SERVER CONFIGURATION ----------------
 
 // ----------------- BEGIN START SERVER -------------------
-server.listen( 8001 );
+server.listen( 8001 ); // begins server
 console.log(
   'Express server listening on port %d in %s mode',
    server.address().port, app.settings.env
