@@ -1,9 +1,9 @@
-{ "name"    : "SPA",
-  "version" : "0.0.3",
-  "private" : true,
-  "dependencies" : {
-    "express"   : "4.10.x",
-    "body-parser": "1.5.x",
-    "method-override": "2.3.x"
+{ "name"    : "SPA",          // name of project           
+  "version" : "0.0.3",          // used by npm to make sure right package installed
+  "private" : true,     // npm will refuse to publish it when set to true
+  "dependencies" : {  // maps a package name to a version range
+    "express"   : "4.10.x", //require express module as dependency
+    "body-parser": "1.5.x", // returns middleware that only parses json
+    "method-override": "2.3.x" // for requests form clients that only support verbs like get and post
    }
 }
