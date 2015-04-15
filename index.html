@@ -11,9 +11,17 @@ Javascript Syntax Highlighter // this is set as title
 <pre data-language="javascript"> // word text
 function id(x) { return x; } // returns the function id
 </pre> // end
+<p>here is another function</p>
 <pre data-language="javascript">
-function 
-  
+    var button = document.querySelector("button");
+  button.addEventListener("mousedown", function(event) {
+    if (event.which == 1)
+      console.log("Left button");
+    else if (event.which == 2)
+      console.log("Middle button");
+    else if (event.which == 3)
+      console.log("Right button");
+  });
 </pre>
 <script>highlightAllCode();</script> // ends highlighall script
 </body> // closes body 
