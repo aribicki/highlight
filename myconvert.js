@@ -1,8 +1,4 @@
 <script type="text/javascript" src="myconvert.js"></script>
-<script type="text/javascript" src="js/highlightCode.js"></script>  
-/
-
-<script type="text/javascript"> // sets script type
 var languages = { // creates var languages
   javascript: /\b(function|return|var|new|public)\b/g /* ... etc */ //looking for the following
 };
