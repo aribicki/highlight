@@ -1,5 +1,6 @@
 var languages = { // creates var languages
-  javascript: /\b(function|return|var|new|public)\b/g /* ... etc */ //looking for the following
+  javascript: /\b(function|return|var|new|public)\b/g,
+  java:/\b(new|if|int|for|private)\b/g/* ... etc */ //looking for the following
 };
 function highlightAllCode() { // creates function highlightAllCode()
   var pres = document.body.getElementsByTagName("pre"); //sets var pres = document.body etc
